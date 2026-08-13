@@ -1,11 +1,8 @@
 {
-    "name": "dextinity-admin-chart",
+    "name": "dextinity-admin",
     "version": "1.0.0",
     "private": true,
     "description": "Helm chart for a Dextinity Admin Microservice.",
-    "workspaces": [
-        "charts/*"
-    ],
     "scripts": {
         "prepare": "husky",
         "changeset:version": "changeset version && node sync-versions.js"
